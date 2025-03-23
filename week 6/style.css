@@ -1,0 +1,21 @@
+p {
+    color: red;
+}
+p#Primary {
+    color: blue;
+
+}
+   
+p.Primary {
+    color: green;
+}
+div#Descendant a {
+    color: yellow;
+
+}
+div > a {
+    color: orange;
+}
+div + p {
+    color: purple;
+}
